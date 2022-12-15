@@ -1,8 +1,15 @@
-local Design = Instance.new("Frame")
-local Container = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local library = {}
+
+function library:CreateWindow()
+ local Design = Instance.new("Frame")
+ local Container = Instance.new("Frame")
+ local TextLabel = Instance.new("TextLabel")
+ local TextButton = Instance.new("TextButton")
 local UIListLayout = Instance.new("UIListLayout")
+ end
+
+
+
  
 Design.Name = "Design"
 Design.Parent = game.StarterGui.ScreenGui
